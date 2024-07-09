@@ -1,0 +1,169 @@
+body {
+    color: antiquewhite;
+    background-color: #084d6e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #993399;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    padding: 5px;
+    color: #993399;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+footer a {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+main {
+    padding: 0 16px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 0 8px;
+    }
+
+    main {
+        padding: 0 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    ul {
+        padding: 8px;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
+
+/*
+body {
+    color: antiquewhite;
+    background-color: #084d6e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #993399;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #993399;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-align: center;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+*/
